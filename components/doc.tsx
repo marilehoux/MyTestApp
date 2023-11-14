@@ -26,11 +26,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import NewHeader from './components/NewHeader';
-import Card from './components/CardExample';
-import FooterNavBar from './components/FooterNavBar';
-import NavBar from './components/NavBar';
-import Search from './components/Search'; 
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
@@ -86,14 +81,7 @@ function App(): JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-            <FooterNavBar />  
-            <Card
-              title="React Native"
-              description="Bienvenue dans l'équipe"
-              image={require('./assets/Pebble.png')}
-              />
-            <NavBar />
-            <Search></Search>
+            
             
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
