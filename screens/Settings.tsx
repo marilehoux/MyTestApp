@@ -4,6 +4,7 @@ import Item from '../components/Item';
 import Title from '../components/Title';
 
 import styles from '../styles';
+import MyButton from '../components/MyButton';
 
 const SettingsScreen = () => {
     return (
