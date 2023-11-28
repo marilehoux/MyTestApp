@@ -32,6 +32,13 @@ const AppScreen = () => {
 					{/* <DebugInstructions /> */}
 					<LearnMoreLinks />
 				</View>
+				<View>
+				<CardExample
+					title="Développer une application mobile avec React Native"
+					description="Si vous avez installer l'ensemble des outils de développement, vous devez pouvoir développer votre app avec React Native. Vous trouverez ci-dessous quelques lines complémentaires pour vous familiariser avec ce framework si besoin.."
+					image={require('../assets/react1.png')}
+					/>
+				</View>
 			</ScrollView>
 		</SafeAreaView>
 	);
